@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- nav start -->
+    <nav>
+        <div class="left-side">
+            <a href="index.html">
+                <img src="assets/logo.png" alt="my logo">
+            </a>
+
+            <ol>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+            </ol>
+        </div>
+
+        <div class="right-side">
+            <a href="contact.html">Contact Me</a>
+        </div>
+    </nav>
+    <!-- nav end -->
+    <div class="form-contact">
+        <div class="container-form">
+            <form>
+                <div>
+                    <label for="input-name">Name</label>
+                    <input id="input-name" name="input-name" type="text" />
+                </div>
+                <div>
+                    <label for="input-email">Email</label>
+                    <input id="input-email" type="text" />
+                </div>
+                <div>
+                    <label for="input-phone">Phone Number</label>
+                    <input id="input-phone" type="text" />
+                </div>
+                <div>
+                    <label for="input-subject">Subject</label>
+                    <select id="input-subject">
+                        <option value="Let's Talk">Let's Talk</option>
+                        <option value="Let's Collaboration">Let's Collaboration</option>
+                        <option value="I am Hiring">I am Hiring</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="message">Your Message</label>
+                    <textarea id="input-message"></textarea>
+                </div>
+                <button type="button" onclick="showData()">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="form.js"></script>
+</body>
+
+</html>
